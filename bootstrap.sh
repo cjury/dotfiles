@@ -50,8 +50,8 @@ function link_file() {
   if $overwrite; then
     echo "overwriting $dst"
     rm -rf "$dst"
-    ln -s "$src" "$dst"
   fi
+  ln -s "$src" "$dst"
 
 }
 
