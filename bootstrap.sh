@@ -51,7 +51,7 @@ function link_file() {
     echo "overwriting $dst"
     rm -rf "$dst"
   fi
-  ln -s "$src" "$dst"
+  ln -sf "$src" "$dst"
 
 }
 
